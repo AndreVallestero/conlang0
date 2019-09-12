@@ -3,8 +3,9 @@ A conlang focused on human ergonomics, efficiency, and usability
 
 Dewey decimal for lexicon
 
-- C-V-C = Standard syllable syntax	(512)
-- 0-0-0 = Toggle expression mode OR separator?
+C-V-C = Standard syllable syntax	(512)
+
+- 0-0-0 = Toggle expression mode OR separator? (1)
 - [0,7]-0-[0,7] = Number	(64)
 - 0-[1,7]-0 = Quantitative affix (7)
 - 0-[1,7]-[1,7] = Prefix	(49)
