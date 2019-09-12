@@ -15,7 +15,6 @@ C-V-C = Standard syllable syntax	(512)
 - [1,7]-[3,4]-[1,7] = Operators (98)
 - [1,7]-[5,7]-[1,7] = Operands (147)
 
-
 Quantitative affixes (Attach to prefix or suffix):
 
 - 1	zero		"I'm not happy at all"
@@ -25,3 +24,14 @@ Quantitative affixes (Attach to prefix or suffix):
 - 5	above usual	"I'm more happy than usual"
 - 6	almost max	"I'm almost maximally happy"
 - 7	maximum		"I'm as happy as I can be"
+
+Vowels, (selected based on audible difference and sorted based on ease of communicability and global usage frequency)
+
+- 0 (mid, central)- "mOther"
+- 1 (close, central) - "sIt"
+- 2 (open mid, near back) - "rOt"
+- 3	(close, near back) - "mEt"  
+- 4 (open, back) - "hAve"   
+- 5 (close, back) - "flEE"
+- 6 (open, frontal) - "lOw" 
+- 7 (close, frontal) - "blUE"  
