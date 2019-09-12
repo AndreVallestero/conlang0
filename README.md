@@ -3,20 +3,13 @@ A conlang focused on human ergonomics, efficiency, and usability
 
 Dewey decimal for lexicon
 
-C = any consonant
-
-V = any vowel
-
-0-7 = specific consonant or vowel
-
-
 - C-V-C = Standard syllable syntax	(512)
 - 0-0-0 = Toggle expression mode OR separator?
 - [0,7]-0-[0,7] = Number	(64)
 - 0-[1,7]-0 = Quantitative affix (7)
 - 0-[1,7]-[1,7] = Prefix	(49)
 - [1,7]-[1,7]-0 = Suffix	(49)
-- [1,7]-1-[1,7] = Operators, flow control and logic (49)
+- [1,7]-1-[1,7] = Arithmetic operators, flow control and logic (49)
 - [1,7]-2-[1,7] = Grammar and speech (49)
 - [1,7]-[3,4]-[1,7] = Operators (98)
 - [1,7]-[5,7]-[1,7] = Operands (147)
