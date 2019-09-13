@@ -3,7 +3,7 @@ A conlang focused on human ergonomics, efficiency, and usability
 
 Dewey decimal for lexicon
 
-C-V-C = Standard syllable syntax	(512)
+C-V-C = Standard syllable syntax (512) *vasli*
   
 - 0-0-[0,7] = Numbers (8)
 - [1,7]-0-[0,7] = Particles (56) *cmavo*
@@ -29,7 +29,7 @@ Vowels (selected based on audible difference and sorted based on ~~narrow/broadn
 - 0 (mid, central)- "mOther"
 - 1 (close, central) - "sIt"
 - 2 (open mid, near back) - "rOt"
-- 3	(close, near back) - "mEt"  
+- 3 (close, near back) - "mEt"  
 - 4 (open, back) - "hAve"   
 - 5 (close, back) - "flEE"
 - 6 (open, frontal) - "lOw" 
