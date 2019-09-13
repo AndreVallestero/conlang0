@@ -27,12 +27,12 @@ Quantitative affixes (Attach to prefix or suffix):
 Vowels (selected based on audible difference and sorted based on ~~narrow/broadness of sound. close front assigned smaller values, open back is assigned bigger values.~~ ease of communicability and global usage frequency). Consider switching to T8C.
 
 - 0 (mid, central)- "mOther"
-- 1 (close, near back) - "mEt"  
-- 2 (open, back) - "hAve"   
-- 3 (close, central) - "sIt"
-- 4 (open mid, near back) - "rOt"
-- 5 (close, back) - "flEE"
-- 6 (open, frontal) - "lOw" 
+- 1 (open mid, near back) - "rOt"
+- 2 (close, near back) - "mEt"  
+- 3 (open, back) - "hAve"   
+- 4 (close, central) - "sIt"
+- 5 (open, frontal) - "lOw" 
+- 6 (close, back) - "flEE"
 - 7 (close, frontal) - "blUE"  
   
 16777216	(big endian base 10)
