@@ -46,8 +46,8 @@ Adjacent vowels should be treated as separate syllables rather than diphthongs.
   
 ## Grammar
 Head initial
-Particles have end consonant  
-Verbs always end with a consonant
+Particles never have an end consonant
+Verbs always have an end consonant
 
 C-V-C = Standard syllable syntax (512) *vasli*
 
@@ -63,6 +63,7 @@ C-V-C = Standard syllable syntax (512) *vasli*
 [Click here for lexicon](lexicon.md) 
 
 Quantitative suffixes [1]-1-[1-7]
+
 - 1	zero		"I'm not happy at all"
 - 2	almost zero	"I'm almost not happy"
 - 3	below usual	"I'm less happy than usual"
