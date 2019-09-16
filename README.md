@@ -46,21 +46,26 @@ Adjacent vowels should be treated as separate syllables rather than diphthongs.
   
 ## Grammar
 Head initial
+
 Particles never have an end consonant
+
 Verbs always have an end consonant
 
-C-V-C = Standard syllable syntax (512) *vasli*
+C-V-C = Standard syllable syntax (512)
 
 - [0,7]-[0,7]-0 = Particles (64) *cmavo*
 	- [0,7]-0-0 = Numbers
 - Verbs (448) *brivla*
-	- [1,7]-0-[1,7] = Suffix (49) *rafsi*
-	- 0-[0,7]-[1,7] = Operators, flow control, and logic (56)
-	- [1,7]-[1,7]-[1,7] = Normal verbs (343) *gimsu*
+	- 0-[0,7]-[1,7] = Suffix (56) *rafsi*
+	- [1,7]-[0,7]-[1,7] = Normal verbs (392) *gimsu*
 
 
 ## Vocabulary   
 [Click here for lexicon](lexicon.md) 
+
+Operators, flow control, and logic [1,7]-0-[1,7]
+
+
 
 Quantitative suffixes [1]-1-[1-7]
 
