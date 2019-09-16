@@ -1,20 +1,66 @@
 # conlang0
-A conlang focused on human ergonomics, efficiency, and usability
-  
-[lexicon](lexicon.md)    
+A conlang focused on human ergonomics, efficiency, and learnability.
    
-Dewey decimal for lexicon
+## Phonology
+Phonemes are sorted based on ease of communicability and global usage frequency.
+
+Consonants  
+
+|           |labial|alveolar|palatal/velar|  
+|-----------|------|--------|-------------|
+|nasal      |m     |n       |             |
+|stop       |p     |t       |k            |
+|approximant|w     |l       |j            |
+
+- 0 = m
+- 1 = n
+- 2 = p
+- 3 = t
+- 4 = k
+- 5 = w
+- 6 = l
+- 7 = j
+
+Vowels 
+
+|          |front|center|back|  
+|----------|-----|------|----|
+|close     |i    |      |u   |
+|near close|ɪ    |      |    |
+|mid       |     |ə     |    |
+|open mid  |e    |      |ɔ   |
+|open      |æ    |      |ɑ   |
+
+- 0 = ə
+- 1 = e
+- 2 = ɪ
+- 3 = ɔ
+- 4 = u
+- 5 = æ
+- 6 = i
+- 7 = ɑ
+
+Adjacent vowels should be treated as separate syllables rather than diphthongs.
+
+## Orthography  
+  
+## Grammar
 Head initial
-C-V-C = Standard syllable syntax (512) *vasli*
 Particles have end consonant  
 Verbs always end with a consonant
-		
+
+C-V-C = Standard syllable syntax (512) *vasli*
+
 - [0,7]-[0,7]-0 = Particles (64) *cmavo*
 	- [0,7]-0-0 = Numbers
 - Verbs (448) *brivla*
 	- [1,7]-0-[1,7] = Suffix (49) *rafsi*
 	- 0-[0,7]-[1,7] = Operators, flow control, and logic (56)
 	- [1,7]-[1,7]-[1,7] = Normal verbs (343) *gimsu*
+
+
+## Vocabulary   
+[Click here for lexicon](lexicon.md) 
 
 Quantitative suffixes [1]-1-[1-7]
 - 1	zero		"I'm not happy at all"
@@ -25,17 +71,7 @@ Quantitative suffixes [1]-1-[1-7]
 - 6	almost max	"I'm almost maximally happy"
 - 7	maximum		"I'm as happy as I can be"
 
-Vowels (selected based on audible difference and sorted based on ~~narrow/broadness of sound. close front assigned smaller values, open back is assigned bigger values.~~ ease of communicability and global usage frequency). Consider switching to T8C.
-
-- 0 (mid, central)- "mOther"
-- 1 (open mid, near back) - "rOt"
-- 2 (close, near back) - "mEt"  
-- 3 (open, back) - "hAve"   
-- 4 (close, central) - "sIt"
-- 5 (open, frontal) - "lOw" -- Requires change, dipthong
-- 6 (close, back) - "flEE"
-- 7 (close, frontal) - "blUE"  
-  
+## Math
 16777216	(big endian base 10)
 100000000	(big endian base 8)  
 
