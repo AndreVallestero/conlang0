@@ -55,7 +55,7 @@ Adjacent vowels should be treated as separate syllables rather than diphthongs.
 ## Orthography  
   
 ## Grammar
-Can be written entirely spaceless
+Can be written entirely without spaces
 
 Head initial
 
