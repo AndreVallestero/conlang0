@@ -1,5 +1,15 @@
-# conlang0
+THIS PROJECT IS UNDER HEAVY DEVELOPMENT. EXPECT MAJOR OVERHAULS FREQUENTLY  
+    
+# conlang0  
 A conlang focused on human ergonomics, efficiency, and learnability.
+
+particles as functions. Changes structure and can literally modify parameters.  
+  
+There are 2 type of particles. Morphing particles and tagging particles.  
+  
+Morphing particles will literally internally modify whatever parameters are passed to it.  
+   
+Tagging particles will externally change how a parameter is read by outside verbs or particles.
    
 ## Phonology
 Phonemes are sorted based on ease of communicability and global usage frequency.
@@ -8,11 +18,11 @@ Consonants
 
 |           |labial|alveolar|palatal/velar|  
 |-----------|------|--------|-------------|
-|nasal      |m     |n       |             |
+|nasal      |      |n       |             |
 |stop       |p     |t       |k            |
 |approximant|w     |l       |j            |
 
-- 0 = m
+- 0 =
 - 1 = n
 - 2 = p
 - 3 = t
@@ -45,6 +55,8 @@ Adjacent vowels should be treated as separate syllables rather than diphthongs.
 ## Orthography  
   
 ## Grammar
+Can be written entirely spaceless
+
 Head initial
 
 Particles never have an end consonant
@@ -53,31 +65,35 @@ Verbs always have an end consonant
 
 C-V-C = Standard syllable syntax (512)
 
-- [0,7]-[0,7]-0 = Particles (64) *cmavo*
-	- [0,7]-0-0 = Numbers
-- Verbs (448) *brivla*
-	- 0-[0,7]-[1,7] = Suffix (56) *rafsi*
-	- [1,7]-[0,7]-[1,7] = Normal verbs (392) *gimsu*
-
+Structures only end when specified or until parameters are saturated  
+  
+Nouns and verbs always require an end syllable as their length (unlike particles or indexes) are variable.
 
 ## Vocabulary   
 [Click here for lexicon](lexicon.md) 
 
-Operators, flow control, and logic [1,7]-0-[1,7]
+- [0,7]-[0,7]-0 = Particles (64) *cmavo*
+	- [0,7]-0-0 = Numbers
+- [0,7]-[0,7]-[1,7]Verbs (448) *brivla*
+	- 0-[0,7]-[1,7] = Suffix (56) *rafsi*
+	- [1,7]-0-[1,7] = Operators, flow control, and logic (49)
+	- [1,7]-[1,7]-[1,7] = Normal verbs (343) *gimsu*
 
 
+Quantitative suffixes 0-0-[0-7]
 
-Quantitative suffixes [1]-1-[1-7]
+- 0	zero		"I'm not happy at all"
+- 1	almost zero	"I'm almost not happy"
+- 2	below usual	"I'm less happy than usual"
+- 3	usual		"I'm as happy as usual"
+- 4	above usual	"I'm more happy than usual"
+- 5	almost max	"I'm almost maximally happy"
+- 6	maximum		"I'm as happy as I can be"
+- 7	infinite	"I'm as happy beyond understanding"
 
-- 1	zero		"I'm not happy at all"
-- 2	almost zero	"I'm almost not happy"
-- 3	below usual	"I'm less happy than usual"
-- 4	usual		"I'm as happy as usual"
-- 5	above usual	"I'm more happy than usual"
-- 6	almost max	"I'm almost maximally happy"
-- 7	maximum		"I'm as happy as I can be"
+## Math  
+NOT FINALIZED  
 
-## Math
 16777216	(big endian base 10)
 100000000	(big endian base 8)  
 
