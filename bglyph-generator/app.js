@@ -95,7 +95,7 @@ function draw_glyph(xPos, yPos, node0Val = 0, node1Val = 0, node2Val = 0) {
 	if ([2, 4, 6, 7].includes(node0Val))
 		context.drawImage(baseGlyph, 1, 5, 4, 4, xPos + 1, yPos + 5, 4, 4);
 	if ([3, 5, 6, 7].includes(node0Val))
-		context.drawImage(baseGlyph, 0, 3, 2, 6, xPos + 0, yPos + 3, 2, 6);
+		context.drawImage(baseGlyph, 0, 3, 1, 5, xPos + 0, yPos + 3, 1, 5);
 	
 	// Top node
 	if(node1Val)
@@ -109,7 +109,7 @@ function draw_glyph(xPos, yPos, node0Val = 0, node1Val = 0, node2Val = 0) {
 	
 	// Right node
 	if ([1, 4, 5, 7].includes(node2Val))
-		context.drawImage(baseGlyph, 9, 3, 2, 6, xPos + 9, yPos + 3, 2, 6);
+		context.drawImage(baseGlyph, 9, 3, 1, 5, xPos + 9, yPos + 3, 1, 5);
 	if ([2, 4, 6, 7].includes(node2Val))
 		context.drawImage(baseGlyph, 6, 5, 4, 4, xPos + 6, yPos + 5, 4, 4);
 	if ([3, 5, 6, 7].includes(node2Val))
