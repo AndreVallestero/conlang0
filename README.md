@@ -1,4 +1,8 @@
 THIS PROJECT IS UNDER HEAVY DEVELOPMENT. EXPECT MAJOR OVERHAULS FREQUENTLY  
+
+try out the glyph generator here:
+
+http://andrevallestero.github.io/conlang0/glyph-generator
     
 # conlang0  
 A conlang focused on human ergonomics, efficiency, and learnability.
