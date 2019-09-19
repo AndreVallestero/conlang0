@@ -57,9 +57,16 @@ Vowels
 Adjacent vowels should be treated as separate syllables rather than diphthongs.
 
 ## Orthography  
+Hexagon divided into triads
+
+Triads have 7 states made from glyphlets
+
+Demo can be seen here:  
+http://andrevallestero.github.io/conlang0
   
 ## Grammar
-Can be written entirely without spaces
+Can be written entirely without spaces  
+  
 
 Head initial
 
