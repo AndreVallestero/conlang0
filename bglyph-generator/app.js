@@ -22,7 +22,7 @@ function main() {
 	document.getElementById('textInput').onkeyup = draw;
 	
 	update_len();
-	setTimeout(draw, 10);
+	setTimeout(draw, 100);
 }
 
 function update_len() {
