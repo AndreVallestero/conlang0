@@ -74,8 +74,8 @@ function draw_glyph_list(startXPos, startYPos, glyphList) {
 	let rows = Math.ceil(glyphList.length / rowLen);
 	for (let i = 0; i < rows; ++i) {
 		for (let j = 0; j < Math.min(glyphList.length - i * rowLen, rowLen); ++j)
-			draw_glyph(startXPos + j * 12,
-				startYPos + i * 12, glyphList[i * rowLen + j][0], glyphList[i * rowLen + j][1], glyphList[i * rowLen + j][2]);
+			draw_glyph(startXPos + j * 9,
+				startYPos + i * 9, glyphList[i * rowLen + j][0], glyphList[i * rowLen + j][1], glyphList[i * rowLen + j][2]);
 	}
 }
 
@@ -85,36 +85,36 @@ function draw_glyph_list(startXPos, startYPos, glyphList) {
 // node1Val (int) value of top node from 0 to 7, defaults to 0
 // node2Val (int) value of right node from 0 to 7, defaults to 0
 function draw_glyph(xPos, yPos, node0Val = 0, node1Val = 0, node2Val = 0) {
-	// Base glyph
-	context.drawImage(baseGlyph, 1, 2, 4, 4, xPos + 1, yPos + 2, 4, 4);
-	context.drawImage(baseGlyph, 5, 5, 1, 6, xPos + 5, yPos + 5, 1, 6);
-	context.drawImage(baseGlyph, 6, 2, 4, 4, xPos + 6, yPos + 2, 4, 4);
+	context.drawImage(baseGlyph, 1, 3, 3, 3, xPos + 1, yPos + 3, 3, 3);
+	context.drawImage(baseGlyph, 4, 5, 1, 6, xPos + 4, yPos + 5, 1, 6);
+	context.drawImage(baseGlyph, 5, 3, 3, 3, xPos + 5, yPos + 3, 3, 3);
 	
 	// Left node
+	if(node0Val)
 	if ([1, 4, 5, 7].includes(node0Val))
-		context.drawImage(baseGlyph, 1, 8, 4, 3, xPos + 1, yPos + 8, 4, 3);
+		context.drawImage(baseGlyph, 1, 8, 3, 3, xPos + 1, yPos + 8, 3, 3);
 	if ([2, 4, 6, 7].includes(node0Val))
-		context.drawImage(baseGlyph, 1, 5, 4, 4, xPos + 1, yPos + 5, 4, 4);
+		context.drawImage(baseGlyph, 1, 5, 3, 3, xPos + 1, yPos + 5, 3, 3);
 	if ([3, 5, 6, 7].includes(node0Val))
 		context.drawImage(baseGlyph, 0, 3, 1, 5, xPos + 0, yPos + 3, 1, 5);
 	
 	// Top node
 	if(node1Val)
-		context.drawImage(baseGlyph, 5, 0, 1, 1, xPos + 5, yPos + 0, 1, 1);
+		context.drawImage(baseGlyph, 4, 0, 1, 1, xPos + 4, yPos + 0, 1, 1);
 	if ([1, 4, 5, 7].includes(node1Val))
-		context.drawImage(baseGlyph, 1, 0, 4, 3, xPos + 1, yPos + 0, 4, 3);
+		context.drawImage(baseGlyph, 1, 0, 3, 3, xPos + 1, yPos + 0, 3, 3);
 	if ([2, 4, 6, 7].includes(node1Val))
-		context.drawImage(baseGlyph, 5, 0, 1, 5, xPos + 5, yPos + 0, 1, 5);
+		context.drawImage(baseGlyph, 4, 1, 1, 4, xPos + 4, yPos + 1, 1, 4);
 	if ([3, 5, 6, 7].includes(node1Val))
-		context.drawImage(baseGlyph, 6, 0, 4, 3, xPos + 6, yPos + 0, 4, 3);
+		context.drawImage(baseGlyph, 5, 0, 3, 3, xPos + 5, yPos + 0, 3, 3);
 	
 	// Right node
 	if ([1, 4, 5, 7].includes(node2Val))
-		context.drawImage(baseGlyph, 10, 3, 1, 5, xPos + 10, yPos + 3, 1, 5);
+		context.drawImage(baseGlyph, 8, 3, 1, 5, xPos + 8, yPos + 3, 1, 5);
 	if ([2, 4, 6, 7].includes(node2Val))
-		context.drawImage(baseGlyph, 6, 5, 4, 4, xPos + 6, yPos + 5, 4, 4);
+		context.drawImage(baseGlyph, 5, 5, 3, 3, xPos + 5, yPos + 5, 3, 3);
 	if ([3, 5, 6, 7].includes(node2Val))
-		context.drawImage(baseGlyph, 6, 8, 4, 3, xPos + 6, yPos + 8, 4, 3);
+		context.drawImage(baseGlyph, 5, 8, 3, 3, xPos + 5, yPos + 8, 3, 3);
 }
 
 window.onload = main;
