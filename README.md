@@ -52,9 +52,9 @@ Triads have 7 states made from glyphlets
 
 Glyph generator demos can be found here:
 
-[http://andrevallestero.github.io/conlang0/glyph-generator](http://andrevallestero.github.io/conlang0/glyph-generator)
+[https://conlang0.org/glyph-generator](https://conlang0.org/glyph-generator)
 
-[http://andrevallestero.github.io/conlang0/bglyph-generator](http://andrevallestero.github.io/conlang0/bglyph-generator)
+[https://conlang0.org/bglyph-generator](https://conlang0.org/bglyph-generator)
 
 ## Grammar
 Can be written entirely without spaces  
