@@ -1,19 +1,8 @@
-THIS PROJECT IS UNDER HEAVY DEVELOPMENT. EXPECT MAJOR OVERHAULS FREQUENTLY  
+# conlang0
 
-try out the glyph generator here:
+THIS PROJECT IS UNDER HEAVY DEVELOPMENT. EXPECT MAJOR OVERHAULS FREQUENTLY 
 
-http://andrevallestero.github.io/conlang0
-    
-# conlang0  
 A conlang focused on human ergonomics, efficiency, and learnability.
-
-particles as functions. Changes structure and can literally modify parameters.  
-  
-There are 2 type of particles. Morphing particles and tagging particles.  
-  
-Morphing particles will literally internally modify whatever parameters are passed to it.  
-   
-Tagging particles will externally change how a parameter is read by outside verbs or particles.
    
 ## Phonology
 Phonemes are sorted based on ease of communicability and global usage frequency.
@@ -61,13 +50,15 @@ Hexagon divided into triads
 
 Triads have 7 states made from glyphlets
 
-Demo can be seen here:  
-http://andrevallestero.github.io/conlang0
-  
+Glyph generator demos can be found here:
+
+[http://andrevallestero.github.io/conlang0/glyph-generator](http://andrevallestero.github.io/conlang0/glyph-generator)
+
+[http://andrevallestero.github.io/conlang0/bglyph-generator](http://andrevallestero.github.io/conlang0/bglyph-generator)
+
 ## Grammar
 Can be written entirely without spaces  
   
-
 Head initial
 
 Particles never have an end consonant
@@ -78,7 +69,15 @@ C-V-C = Standard syllable syntax (512)
 
 Structures only end when specified or until parameters are saturated  
   
-Nouns and verbs always require an end syllable as their length (unlike particles or indexes) are variable.
+Nouns and verbs always require an end syllable as their length (unlike particles or indexes) are variable.  
+
+particles as functions. Changes structure and can literally modify parameters.  
+  
+There are 2 type of particles. Morphing particles and tagging particles.  
+  
+Morphing particles will literally internally modify whatever parameters are passed to it.  
+   
+Tagging particles will externally change how a parameter is read by outside verbs or particles.
 
 ## Vocabulary   
 [Click here for lexicon](lexicon.md) 
