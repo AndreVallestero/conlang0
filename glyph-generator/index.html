@@ -3,20 +3,16 @@
 	<head>
 		<meta content="charset=utf-8" http-equiv="Content-Type">
 		<title>
-			conlang0
+			conlang0 glyph
 		</title>
-		<style>
-			body{
-				background-color: #606060;
-			}
-		</style>
 	</head>
 	
-	<body>
-		<textarea id="textInput">jɑ tɑ nə nep e ɔ nə lɑ æl ɪn e e e ɪ pɑ jɑ tɑ nə nek e net e e e</textarea><br>
-		<canvas id="mainCanvas"></canvas><br>
+	<body style="background-color: #808080">
+		<a href="https://github.com/AndreVallestero/conlang0/blob/master/README.md">home</a>
+		<textarea id="textInput">jɑ tɑ nə nep e ɔ nə lɑ æl ɪn e e e ɪ pɑ jɑ tɑ nə nek e net e e e</textarea>
 		<input type="number" id="sizeInput" min="1" value=32 onclick="update_size();draw()">
-		<button onclick="darkMode=1-darkMode;draw();">Toggle Dark Mode</button>
+		<button onclick="darkMode=1-darkMode;draw();">Toggle Dark Mode</button><br/>
+		<canvas id="mainCanvas"></canvas>
 		<script type="text/javascript" src="app.js"></script>
 	</body>
 </html>
