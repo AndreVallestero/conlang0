@@ -191,7 +191,7 @@
 | 1 | 1 | 4 | nek | x0 feels wonder/awe/marvels about x1                                                     |
 | 1 | 1 | 5 | new | x0 is a book containing work x1 by author x2 for audience x3 perserved in medium x4      |
 | 1 | 1 | 6 | nel | x0 is a frequency from period x1 and base time x2 (f = t / T)	                         |
-| 1 | 1 | 7 | nej | x0 is time-duration/interval/period from time/event x1 to time/event x2                  |
+| 1 | 1 | 7 | nej | x0 is time-duration/interval/period from time/event x1 to time/event x2                    |
 | 2 | 1 | 1 | pen |                                                                                          |
 | 2 | 1 | 2 | pep |                                                                                          |
 | 2 | 1 | 3 | pet |                                                                                          |
