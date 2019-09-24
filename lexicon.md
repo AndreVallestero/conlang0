@@ -1,5 +1,3 @@
-[home page](README.md)  
-  
 # lexicon (512)
   
 ### particles (169)
