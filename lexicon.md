@@ -183,6 +183,7 @@
 
 
 ### predicates (343)
+
 | c#| v#| c#| ipa | definition                                                                               |
 |:-:|:-:|:-:|:---:|------------------------------------------------------------------------------------------|
 | 1 | 1 | 1 | nen | x0 is x1 repeated x2 (a=b*c) or (a/b=c). x0 is whole, x1 is portion x2 is repetition     |
