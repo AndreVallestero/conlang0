@@ -13,7 +13,7 @@
 | 0 | 5 | 0 | æ   | phi                                                                                      |
 | 0 | 6 | 0 | i   | imaginary                                                                                |
 | 0 | 7 | 0 | ɑ   | negative                                                                                 |
-|   |   |   |     | **numbers \[0,7]-0-\[1-7] (56)**                                                         |
+|   |   |   |     | **numbers \[0,7]-0-\[1,7] (56)**                                                         |
 | 0 | 0 | 1 | ən  | the number 1                                                                             |
 | 0 | 0 | 2 | əp  | the number 2                                                                             |
 | 0 | 0 | 3 | ət  | the number 3                                                                             |
