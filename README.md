@@ -116,3 +116,14 @@ translation
   
 :: 011 101 100 = 8 ** 8 * 1 = 16777216
 
+## Input Methods
+
+### Typing / Keyboard
+  
+The syllabic glyph system allows for unprecedented keyboard input. It focuses on maximum information throughput which can input the entire glyph (3 phonemes) in a single key press. This is a result of using a system similar to stenographers which input combinations of sounds(keys) simultaneously to generate syllables(glyphs) rather than entering keys one by one and allows for maximum information throughput.
+    
+- asd - consenant bits
+- fvj - vowel bits
+- kl; - end consenant bits
+- Space Bar - generate glyph
+
