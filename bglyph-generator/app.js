@@ -75,7 +75,7 @@ function draw_glyph_list(startXPos, startYPos, glyphList) {
 	for (let i = 0; i < rows; ++i) {
 		for (let j = 0; j < Math.min(glyphList.length - i * rowLen, rowLen); ++j)
 			draw_glyph(startXPos + j * 10,
-				startYPos + i * 11, glyphList[i * rowLen + j][0], glyphList[i * rowLen + j][1], glyphList[i * rowLen + j][2]);
+				startYPos + i * 12, glyphList[i * rowLen + j][0], glyphList[i * rowLen + j][1], glyphList[i * rowLen + j][2]);
 	}
 }
 
