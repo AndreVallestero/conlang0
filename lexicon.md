@@ -7,12 +7,12 @@
 |   |   |   |     | **special numbers 0-\[0,7]-0 (8)**                                                       |
 | 0 | 0 | 0 | ə   | the number 0/none/empty                                                                  |
 | 0 | 1 | 0 | e   | eulers number e                                                                          |
-| 0 | 2 | 0 | ɪ   | inverse/reciprocal                                                                       |
+| 0 | 2 | 0 | ɪ   | the number 1 00000000, same as: ən jəj                                                   |
 | 0 | 3 | 0 | ɔ   | pythagoras constant, sqrt(2)                                                             |
 | 0 | 4 | 0 | u   | tau                                                                                      |
 | 0 | 5 | 0 | æ   | phi                                                                                      |
 | 0 | 6 | 0 | i   | imaginary                                                                                |
-| 0 | 7 | 0 | ɑ   | negative                                                                                 |
+| 0 | 7 | 0 | ɑ   | negative 1                                                                               |
 |   |   |   |     | **numbers \[0,7]-0-\[1,7] (56)**                                                         |
 | 0 | 0 | 1 | ən  | the number 1                                                                             |
 | 0 | 0 | 2 | əp  | the number 2                                                                             |
@@ -71,7 +71,7 @@
 | 7 | 0 | 6 | jəl | the number 60000000                                                                      |
 | 7 | 0 | 7 | jəj | the number 70000000                                                                      |
 |   |   |   |     | **relative values \[1,7]-0-0 (7)**                                                       |
-| 1 | 0 | 0 | nə  | almost zero                                                                              |
+| 1 | 0 | 0 | nə  | infinitesimal                                                                            |
 | 2 | 0 | 0 | pə  | below standard                                                                           |
 | 3 | 0 | 0 | tə  | standard                                                                                 |
 | 4 | 0 | 0 | kə  | above standard                                                                           |
