@@ -72,10 +72,10 @@
 | 7 | 0 | 7 | jəj | the number 70000000                                                                      |
 |   |   |   |     | **relative values \[1,7]-0-0 (7)**                                                       |
 | 1 | 0 | 0 | nə  | infinitesimal                                                                            |
-| 2 | 0 | 0 | pə  | below standard                                                                           |
-| 3 | 0 | 0 | tə  | standard                                                                                 |
-| 4 | 0 | 0 | kə  | above standard                                                                           |
-| 5 | 0 | 0 | wə  | almost maximum                                                                           |
+| 2 | 0 | 0 | pə  | insufficient                                                                             |
+| 3 | 0 | 0 | tə  | below                                                                                    |
+| 4 | 0 | 0 | kə  | nominal                                                                                  |
+| 5 | 0 | 0 | wə  | above                                                                                    |
 | 6 | 0 | 0 | lə  | maximum                                                                                  |
 | 7 | 0 | 0 | jə  | infinite                                                                                 |
 |   |   |   |     | **left-null particles 0-\[1,7]-\[1,7] (49)**                                             |
